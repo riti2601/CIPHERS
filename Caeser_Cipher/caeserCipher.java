@@ -1,3 +1,4 @@
+package Caeser_Cipher;
 import java.util.*;
 
 public class caeserCipher{
@@ -12,7 +13,7 @@ public class caeserCipher{
             System.out.println("I'm sorry you can not encrypt the data. You are very young to hide anything!");
             return;
         }
-        
+
         System.out.println("Welcomev"+name+"!\nDo you want to encrypt data or decrypt the data?\nFor encryption enter: 1\nFor decryption enter: 2");
         int x = read.nextInt();
         read.nextLine();
