@@ -83,5 +83,5 @@ Decrypted data: hello world
 <hr>
 
 <p align="center">
-    <em>Developed by [Your Name]</em>
+    <em>Developed by RITISHA PANDE</em>
 </p>
