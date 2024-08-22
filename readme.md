@@ -1,12 +1,16 @@
-# Caesar Cipher
+# Java Encryption Techniques
 
-This repository contains a Java implementation of the Caesar Cipher, a classic encryption technique that shifts characters in a string by a certain number of positions.
+This repository contains Java implementations of classic encryption techniques, starting with the Caesar Cipher and MonoAlphabetic Cipher.
 
-## Current Implementation
+## Current Implementations
 
 ### Caesar Cipher
 - **Encryption:** The program takes input data and shifts each character by a user-defined number to encrypt the data.
 - **Decryption:** It also allows you to decrypt data by reversing the shift, returning the original message.
+
+### MonoAlphabetic Cipher
+- **Encryption:** The program encrypts the input data by substituting each character with a corresponding character in a predefined key.
+- **Decryption:** It decrypts the data by mapping the encrypted characters back to their original characters using the key.
 
 ## Future Plans
 I plan to extend this repository with more encryption and decryption techniques, as well as other interesting algorithms in Java.
@@ -15,19 +19,22 @@ I plan to extend this repository with more encryption and decryption techniques,
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/caesar-cipher.git
+    git clone https://github.com/yourusername/encryption-techniques.git
     ```
 2. **Navigate to the project directory:**
     ```bash
-    cd caesar-cipher
+    cd encryption-techniques
     ```
 3. **Compile the Java file:**
     ```bash
-    javac caeserCipher.java
+    javac caeserCipher.java monoAlpha.java
     ```
 4. **Run the program:**
     ```bash
     java caeserCipher
+    ```
+    ```bash
+    java monoAlpha
     ```
 
 ## Contributions
