@@ -1,6 +1,6 @@
 package Caeser_Cipher;
 import java.util.*;
-
+// to run the code .. java Caeser_Cipher.caeserCipher ..
 public class caeserCipher{
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class caeserCipher{
             return;
         }
 
-        System.out.println("Welcomev"+name+"!\nDo you want to encrypt data or decrypt the data?\nFor encryption enter: 1\nFor decryption enter: 2");
+        System.out.println("Welcome "+name+"!\nDo you want to encrypt data or decrypt the data?\nFor encryption enter: 1\nFor decryption enter: 2");
         int x = read.nextInt();
         read.nextLine();
 
@@ -22,7 +22,6 @@ public class caeserCipher{
             case 1:
                 System.out.println("\nPlease enter the data that is to be encrypted, we will be using Caeser Cipher to encrypt the data.");
                 String data = read.nextLine();
-                read.nextLine();
                 System.out.println("Choose any number between 1 to 9:");
                 int k = read.nextInt();
                 
@@ -33,7 +32,6 @@ public class caeserCipher{
             case 2:
                 System.out.println("\nPlease enter the data that is to be decrypted, we will be using Caeser Cipher to decrypt the data.");
                 data = read.nextLine();
-                read.nextLine();
                 System.out.println("Enter the number between 1 to 9 which was used for encryption before:");
                 k = read.nextInt();
                 
