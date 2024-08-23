@@ -12,6 +12,12 @@ This repository contains Java implementations of classic encryption techniques, 
 - **Encryption:** The program encrypts the input data by substituting each character with a corresponding character in a predefined key.
 - **Decryption:** It decrypts the data by mapping the encrypted characters back to their original characters using the key.
 
+### Diffie-Hellman Key Exchange
+<ul>
+    <li><strong>Key Generation:</strong> The program allows two parties to generate a shared secret key by exchanging public keys derived from their secret numbers and a common base and modulus (prime numbers).</li>
+    <li><strong>Security:</strong> The protocol ensures that the shared key is secure, even if the public keys are transmitted over an insecure channel.</li>
+</ul>
+
 ## Future Plans
 I plan to extend this repository with more encryption and decryption techniques, as well as other interesting algorithms in Java.
 
