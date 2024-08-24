@@ -49,6 +49,5 @@ Contributions are welcome! If you have ideas for improvements or additional feat
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
----
 
 *Stay tuned for more updates!*
