@@ -18,6 +18,12 @@ This repository contains Java implementations of classic encryption techniques, 
     <li><strong>Security:</strong> The protocol ensures that the shared key is secure, even if the public keys are transmitted over an insecure channel.</li>
 </ul>
 
+### Rail Fence Cipher
+<ul>
+    <li><strong>Encryption:</strong> The program encrypts the input data by rearranging the characters into two groups: even-indexed and odd-indexed characters. The even-indexed characters are placed first, followed by the odd-indexed characters, creating the cipher text.</li>
+    <li><strong>Simple Example:</strong> For example, the string "HELLO WORLD" would be split into "HLOWRD" (even-indexed) and "EL OL" (odd-indexed), resulting in the encrypted message "HLOWRDEL OL".</li>
+</ul>
+
 ## Future Plans
 I plan to extend this repository with more encryption and decryption techniques, as well as other interesting algorithms in Java.
 
